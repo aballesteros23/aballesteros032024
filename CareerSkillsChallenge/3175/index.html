@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central Valley Pets Inc.</title>
+    <style>
+        body{
+            background-color: whitesmoke;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #container{
+            /* background-color: #333; */
+            max-width: 1500px;
+            width: 80%;
+            margin: auto;
+            /* border: 2px solid black; */
+        }
+
+        #wrapper{
+            border: 1px solid black;
+            max-width: 1500px;
+            width: 100%;
+            margin: auto;
+            display: grid;
+            width: 80%;
+            grid-template-areas: 
+            "hea hea hea"
+            "nav nav nav"
+            "mai mai asi"
+            "foo foo foo"
+            ;
+           
+        }
+        #headtext{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #333;
+        }
+
+        #logo{
+            top: -180px;
+            left: -70px;
+            position: relative;
+            background-image: url(Img/logo2.jpg);
+            background-size: 150px;
+            background-position: center;
+            background-repeat: no-repeat;
+            max-width: 150px;
+            min-height:150px;
+            border: 5px solid black;
+            border-radius: 50%;
+
+        }
+
+        /* #headtext{
+            position: fixed;
+            top: 80px;
+            left: 700px;
+            text-shadow: 3px 3px 3px black;
+            font-size: 50px;
+            margin: auto;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        } */
+
+
+        #header{
+            background-image: url(Img/cat+dog/large/cat-dog.jpg);
+            
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-color: ;
+            min-height: 300px;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            font-size: 50px;
+            text-shadow: 3px 3px 3px black;
+            grid-area: hea;
+        }
+
+        #nav{
+            background-color: white;
+            min-height: 2rem;
+            padding: 1rem;
+            grid-area: nav;
+            border: 1px solid black;
+            text-align: center;
+        }
+      
+        .page2link{
+    
+            background-color: gray;
+            text-decoration:;
+            border: 3px solid gray;
+            color: white;
+            text-shadow: 1px 1px 1px black;
+          
+            border-radius: 10%;
+            
+        }
+        .page3link{
+
+            background-color: gray;
+            text-decoration:solid;
+            border: 3px solid gray;
+            color: white;
+            text-shadow: 1px 1px 1px black;
+            
+            border-radius: 10%;
+        }
+
+        #main{
+            background-color: white;
+            border: 1px solid black;
+            min-height: 700px;
+            
+            padding: 1rem;
+            grid-area: mai;
+        }
+
+        .floatleft{
+            float: left;
+            margin-right: 1rem;
+        }
+
+        #aside
+        {
+            background-color: white;
+            border: 1px solid black;
+            min-height: 5rem;
+            min-width: 300px;
+            padding: 1rem;
+            grid-area: asi;
+        }
+
+        #footer{
+            background-color: white;
+            border: 1px solid black;
+            min-height: 100px;
+            padding: 1rem;
+            grid-area: foo;
+        }
+    
+
+
+
+
+    </style>
+</head>
+<body> 
+    <div id="container">
+        <div id="wrapper">
+            <div id="header">
+                <p id="headtext">Central ValleyPets Inc.</p>
+                <div id="logo"></div>
+            </div>
+
+            <div id="nav">
+                <a href="" class="page2link">Why Adopt</a> |
+                <a href="" class="page3link">Liderlly</a>
+            </div>
+
+            <div id="main">
+                <h1>About Us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate enim, culpa ad earum sequi hic velit? Amet dolorum esse aut veniam delectus et aperiam libero eveniet, itaque alias molestias velit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque placeat, quidem mollitia dolorem inventore necessitatibus enim debitis doloribus nobis nam quibusdam vero similique, consequuntur maiores magnam tempora at repellendus distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita unde molestiae maiores eos sed eius. In eaque quod harum impedit error. Asperiores distinctio nobis sed, ratione modi impedit minus debitis.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate enim, culpa ad earum sequi hic velit? Amet dolorum esse aut veniam delectus et aperiam libero eveniet, itaque alias molestias velit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque placeat, quidem mollitia dolorem inventore necessitatibus enim debitis doloribus nobis nam quibusdam vero similique, consequuntur maiores magnam tempora at repellendus distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita unde molestiae maiores eos sed eius. In eaque quod harum impedit error. Asperiores distinctio nobis sed, ratione modi impedit minus debitis.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ad velit iure explicabo temporibus a vitae dolorum ullam ea itaque saepe cumque non, placeat veniam qui, nemo, repellat eos autem.
+                </p>
+
+               
+
+                <img class="floatleft" src="Img/birds/small/red-yellowParrots.jpg" width="400px" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos molestias velit illum ratione quas ab. Aspernatur odio eligendi dignissimos quod autem, inventore eaque tempora blanditiis itaque placeat repellat laborum amet?
+                Veritatis voluptate quia magni excepturi voluptatum fuga laboriosam dolorum labore, velit minus veniam quidem vel libero corporis! Totam sed ullam atque nihil dolore, quam culpa perferendis itaque necessitatibus expedita autem.
+                Labore incidunt ducimus non cumque praesentium laborum officiis reprehenderit nihil dicta quisquam? Saepe numquam alias sunt fuga magni doloremque labore, temporibus modi repudiandae, nam minus laboriosam, provident sequi ipsam mollitia?
+                Id, ipsam! Possimus accusamus magni obcaecati, ipsa eaque animi. Quidem, quod exercitationem dolorum necessitatibus, porro dignissimos aspernatur, odit maxime deserunt dolorem optio atque odio dolores voluptate. Tempora cumque nemo officiis!
+                Perferendis, asperiores incidunt velit minima praesentium quam ipsum, odio officia earum repellat unde suscipit distinctio. Temporibus praesentium consectetur ducimus repellendus quas nulla ipsum harum animi dolorum sapiente blanditiis, eaque veritatis!
+                Incidunt repellat quibusdam repellendus vel animi tenetur suscipit ex, dignissimos, consequatur, ipsum voluptatibus ea reprehenderit totam ab dicta dolore fugiat quo officia. Temporibus laudantium repudiandae impedit odio explicabo perspiciatis natus.
+                Nihil reprehenderit aperiam vero. Iste iure veniam voluptatum eos earum ab non doloremque recusandae animi veritatis magnam voluptatem sint eius in, consectetur at asperiores quae. Nesciunt unde labore sapiente eaque?
+                Eius ex voluptas sit ea. Ea aliquid, asperiores accusamus ab laborum a laboriosam sit pariatur fugiat doloribus debitis ratione, fugit distinctio architecto, tempora saepe quisquam dignissimos beatae dolor tempore. Excepturi.
+                Laudantium ipsa voluptatum atque fugit consequatur autem quidem optio quod, modi iure! Alias excepturi, temporibus tenetur nihil cupiditate officia, iste odit, fuga eveniet unde facere? Perferendis ut distinctio sed vitae.
+                Praesentium provident impedit possimus distinctio molestias. Voluptatem asperiores impedit rerum, excepturi quas sunt possimus quia eaque, magnam porro, obcaecati voluptate voluptates voluptatum soluta debitis animi. Aliquam eaque voluptas magni delectus!
+            </div>
+            <div id="aside"></div>
+            <div id="footer"></div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+    </div>
+ 
+
+ 
+
+
+ 
+       
+
+ 
+    
+
+
+
+       
+
+      
+            
+
+       
+   
+    
+        
+</body>
+</html>
